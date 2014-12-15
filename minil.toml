@@ -1,0 +1,6 @@
+name = "IO-Socket-TLS"
+# badges = ["travis"]
+authority="cpan:CRUX"
+
+module_maker="ModuleBuildTiny"
+
