@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "is a drop-in replacement for IO::Socket::SSL",
    "author" : [
       "Vladimir Lettiev <thecrux@gmail.com>"
    ],
@@ -42,6 +42,9 @@
       },
       "runtime" : {
          "requires" : {
+            "IO::Socket::IP" : "0",
+            "Protocol::TLS" : "0",
+            "Scalar::Util" : "0",
             "perl" : "5.008001"
          }
       },
@@ -52,6 +55,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/vlet/p5-IO-Socket-TLS/issues"
+      },
+      "homepage" : "https://github.com/vlet/p5-IO-Socket-TLS",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/vlet/p5-IO-Socket-TLS.git",
+         "web" : "https://github.com/vlet/p5-IO-Socket-TLS"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:CRUX"
 }

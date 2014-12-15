@@ -2,5 +2,7 @@ Revision history for Perl extension IO-Socket-TLS
 
 {{$NEXT}}
 
+0.01 2014-12-15T20:54:21Z
+
     - original version
 
